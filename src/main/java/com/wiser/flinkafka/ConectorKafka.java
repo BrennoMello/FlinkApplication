@@ -6,6 +6,7 @@
 package com.wiser.flinkafka;
 
 import java.util.Properties;
+import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 
