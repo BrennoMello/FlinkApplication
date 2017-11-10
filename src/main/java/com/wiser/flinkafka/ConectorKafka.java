@@ -20,6 +20,7 @@ import org.apache.flink.streaming.util.serialization.SimpleStringSchema;
 public class ConectorKafka {
     
     public static void main(){
+        
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         
         // set up the streaming execution environment
